@@ -35,3 +35,4 @@ video[poster$="sup_mech.jpg"] { aspect-ratio: 836 / 720; }
 
 .sec.dark { background: #111215; }
 .sec.dark .demo-tabs button.is-active { background: #f2f0eb; color: #17181b; }
+#cite pre { background: var(--fill); }   /* --band is the page colour here */

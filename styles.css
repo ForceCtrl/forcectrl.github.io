@@ -269,6 +269,7 @@ pre {
 .sec.dark + .sec { padding-top: var(--sec); }
 #cite.sec { padding-block: 32px 40px; }   /* only the credits line until there is a citation */
 #cite .foot { margin-top: 0; }
+#cite pre + .foot { margin-top: 28px; }
 
 /* reveal */
 .js .rv { opacity: 0; transform: translateY(32px); transition: opacity .9s var(--ease), transform 1.1s var(--spring); }
