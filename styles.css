@@ -245,6 +245,7 @@ pre {
 .hero .pill.out { border-color: rgba(244,242,238,0.8); color: #f4f2ee; }
 .hero .pill.out:hover { background: #f4f2ee; color: var(--ink); }
 .hero span.pill.out, .hero span.pill.out:hover { background: none; color: #f4f2ee; cursor: default; }   /* Code: no link yet */
+.hero .pill .soon { margin-left: .4em; opacity: .6; font-weight: 400; }
 .hero .pill.quiet { background: rgba(244,242,238,0.14); color: rgba(244,242,238,0.72); }
 /* keycaps on the dark stage: pale caps on a grey body */
 .hero .key::before { background: #8a867e; box-shadow: 0 0.14em 0.5em rgba(0,0,0,0.5); }
