@@ -224,7 +224,7 @@ pre {
 /* ---- combined variant: dark full-bleed hero ---- */
 .hero {
   position: relative; overflow: hidden; padding: 0; text-align: left;
-  min-height: min(100vh, 880px); min-height: min(100svh, 880px);
+  min-height: 100vh; min-height: 100svh;   /* full screen: the hero is held while the keys press, so a shorter one shows blank page below it */
   display: grid; align-items: end; background: #0e0f12; color: #f4f2ee;
 }
 .hero-video {
